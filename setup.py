@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 base_dir = os.path.dirname(__file__)
 
 about = {}
-with open(os.path.join(base_dir, 'src', 'tmb_utils', '__about__.py')) as f:
+with open(os.path.join(base_dir, 'src', 'tbm_utils', '__about__.py')) as f:
 	exec(f.read(), about)
 
 setup(
